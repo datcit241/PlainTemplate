@@ -49,7 +49,7 @@ const customTheme = {
     },
     MuiInputLabel: {
       styleOverrides: {
-        shrink: sx({
+        shrink: ({
           transform: 'translate(14px, -9px) scale(0.85)',
         }),
       },
